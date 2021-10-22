@@ -5,8 +5,8 @@
 	import { auth } from '$lib/utility/auth';
 import Radio from './Radio.svelte';
 
-	let email = 'mockuser@gmail.com';
-	let password = 'mockpass';
+	let email = '';
+	let password = '';
 	let displayName='';
 
 	async function logIn(e) {

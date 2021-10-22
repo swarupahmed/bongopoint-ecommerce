@@ -47,10 +47,10 @@ import { auth } from '$lib/utility/auth';
 
 	.topbar{
 		position: fixed;
+		background-color: white;
 		top: 0;
 		left: 0;
 		width: 100vw;
-		border-bottom:1px solid ;
 		padding:8px 12px ;
 	}
 	.slot {

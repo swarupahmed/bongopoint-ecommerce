@@ -65,4 +65,3 @@
 	{/if}
 </div>
 
-<button on:click={()=>console.log(deliveryAddress)}>console</button>

@@ -28,7 +28,7 @@
 	</div>
 	<div class="product-meta">
 		<div class="title">{product.title}</div>
-		<div style="display: flex;justify-content: space-between;">
+		<div style="display: flex;justify-content: space-between; margin:12px">
 			<div style="padding: 1px; color:#A80B7C">tk. {product.price}</div>
 			<button style="padding: 0 4px;" on:click={addTocart}>cart+</button>
 		</div>
@@ -37,13 +37,14 @@
 
 <style>
 	img {
-		width: 300px;
-		height: 275px;
+		width: 292px;
+		height: 280px;
 		border-radius: 2px 2px 0 0;
 	}
 	.product {
-		width: 300px;
-		height: 320px;
+		margin: 20px;
+		width: 292px;
+		height: 360px;
 		background-color: white;
 		border-radius: 2px;
 	}

@@ -12,6 +12,3 @@
 {#if $localCart.length}
 	 <Cart products={$localCart}/>
 {/if}
-
-
-iufsad
