@@ -62,6 +62,6 @@ import Radio from './Radio.svelte';
 
 <style>
 	.form {
-		max-width: 400px;
+		max-width: 401px;
 	}
 </style>
