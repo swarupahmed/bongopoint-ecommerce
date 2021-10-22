@@ -11,8 +11,18 @@
 
 <!-- content here -->
 {#if products}
+<div class="products">
+
 	{#each products as product}
 		<ProductCard {product} />
 		
 	{/each}
+</div>
 {/if}
+
+<style>
+	.products{
+		display: flex;
+		flex-wrap: wrap;
+	}
+</style>
